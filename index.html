@@ -3,20 +3,18 @@
   <meta charset="utf-8">
   <title>Fidgety Fox Handicrafts</title>
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
-  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-
-  <style type="text/css">
-  body {
-    background-color: #333;
-    text-align: center;
-    color: #eee;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 18pt;
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">   <style type="text/css">
+  * {
+    box-sizing: border-box;
   }
 
-  img {
-    height: 500px;
-    margin: 3em auto;
+  body {
+    background-color: #2e2823;
+    text-align: center;
+    color: #eee;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 18pt;
+    margin: 4em auto;
   }
 
   a {
@@ -28,17 +26,60 @@
     text-decoration: underline;
   }
 
-  h1, p {
-    margin: 0.5em auto;
+  h1, h2, h3, h4, h5 {
+    font-family: 'Shadows Into Light Two', cursive;    
+    margin: 0 auto 0.5em auto;
     padding: 0;
     line-height: 1em;
   }
+
+  #container {
+    display: inline;
+    vertical-align: top;
+    margin: 1em auto;
+  }
+
+  .logo {
+    width: 300px;
+    display: inline-block;
+    margin-right: 50px;
+  }
+
+  main {
+    width: 700px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+  }
+
+  header a {
+    font-family: 'Shadows Into Light Two', cursive;
+    margin: 0 0 0 2em;
+  }
+
+  .content {
+    text-align: center;
+    margin: 2em auto;
+  }
+
+
   </style>
 </head>
 <body>
-  <img src="logo.png" alt="Figdety Fox Handicrafts"/>
-  <h1>Figdety Fox Handicrafts</h1>
-  <p>Coming Soon</p>
-  <p><a href="mailto:monica@fidgetyfox.com">Contact</a></p>
+  <div id="container">
+    <img class="logo" src="logo.png" alt="Figdety Fox Handicrafts"/>
+    <main>
+      <h1>Figdety Fox Handicrafts</h1>
+      <header>
+        <a href="https://www.facebook.com/Fidgety-Fox-Handicrafts-103015321570845">Facebook</a>
+        <a href="https://www.instagram.com/fidgetyfoxhandicrafts/">Instagram</a>
+        <a href="mailto:monica@fidgetyfox.com">Contact</a>
+      </header>
+      <div class="content">
+        <p>Fidgety Fox Handicrafts was born from the anxiety and fussing of a woman with a big-ass laser. Specializing in handcrafted ornaments, leather goods, and DIY kits.</p>
+      </div>
+
+    </main>
+  </div>
 </body>
 
